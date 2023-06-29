@@ -1,0 +1,35 @@
+{
+  "name": "odin-battleship",
+  "version": "1.0.0",
+  "description": "Battleship game created for The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest  --verbose",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WavyBoyJodii/odin-battleship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WavyBoyJodii/odin-battleship/issues"
+  },
+  "homepage": "https://github.com/WavyBoyJodii/odin-battleship#readme",
+  "dependencies": {
+    "eslint-config-wesbos": "^3.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-jest": "^29.5.0",
+    "css-loader": "^6.8.1",
+    "jest": "^29.5.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
