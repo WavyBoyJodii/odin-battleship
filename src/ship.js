@@ -6,5 +6,5 @@ export const Ship = (x) => {
     if (hits === length) return true;
     return false;
   };
-  return { length, hits, hit, isSunk };
+  return { length, hits, hit, isSunk, positions: Array(length).fill(null) };
 };

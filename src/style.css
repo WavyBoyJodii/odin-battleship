@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.game-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.player-board {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #000;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.player-board div {
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hit {
+  background-color: #ff4c4c;
+}
+
+.miss {
+  background-color: #4c98ff;
+}
+
+.button {
+  display: flex;
+  height: 20px;
+  width: 40px;
+  background-color: #4c98ff;
+}
+
+.ships-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.ships {
+  width: 300px;
+  height: 40px;
+  border: none;
+}
